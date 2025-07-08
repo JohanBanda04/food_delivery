@@ -212,7 +212,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
               color: index.isEven ? Color(0xFF69c5df) : Color(0xFF9294CC),
               image: DecorationImage(
                 fit: BoxFit.cover,
-                image: AssetImage("assets/image/food1.png"),
+                image: AssetImage("assets/image/food1.png",),
               ),
             ),
           ),
